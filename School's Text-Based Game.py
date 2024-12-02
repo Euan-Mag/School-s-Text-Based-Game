@@ -1,4 +1,4 @@
-##USE College Subjects > Computing > RPG Game
+##INCOMPLETE
 import random
 import time
 
@@ -193,7 +193,7 @@ isKeyFound = False
 
 print("You wake up to find yourself in a dilapidated hall. " + MainHall.Description + "\n")
 roomsDict = {Kitchen.Name: 1, MainHall.Name: 2, MasterBedroom.Name: 3}
-rooms = ["placeholder", Kitchen, MainHall, MasterBedroom]
+rooms = ["index 0", Kitchen, MainHall, MasterBedroom] #"index 0" prevents a logic error (likely an off-by-one error)
 roomPlayerIsIn = roomsDict[MainHall.Name]
 
 while isGameOn:
