@@ -1,4 +1,5 @@
 ##INCOMPLETE
+
 import random
 import time
 
@@ -181,7 +182,6 @@ def fightMode(ally, enemy, isAllyAlive):
         
         time.sleep(1)
         print("-----")
-    
 
 ### @@@ MAIN @@@ ###
 if False:
