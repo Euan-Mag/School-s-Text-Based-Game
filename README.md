@@ -4,6 +4,6 @@ I worked on this game project during my computer science teacher's 2-week absenc
 
 I initially planned to create various allies and enemies, but since I was uncertain about when my teacher would return, I decided to include just one ally (named 'Chester Bennington') and one enemy.
 
-I focused mainly on planning (seen in the decomposition chart), but towards the end I completely concentrated on coding the game.
+I focused mainly on planning (seen in the decomposition chart), but towards the end, I completely concentrated on coding the game.
 
-My teacher set this task to show the difference OOP (Object Oriented Programming) can make, but due to my prior experience with it via learning C#, I was able to write cleaner and more organised code than what would've been possible without the aforementioned experience.
+My teacher set this task to show the difference OOP can make, but due to my prior experience with it via learning C#, I was able to write cleaner and more organised code than what would've been possible without the prior experience.
