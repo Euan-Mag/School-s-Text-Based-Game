@@ -4,6 +4,7 @@ import random
 import time
 
 ### @@@ DEV TEST @@@
+#Development testing. Used for developer-only things like debugging, etc.
 class devTestClass:
     def __init__(self, isDevTestOn):
         self.isDevTestOn = isDevTestOn
@@ -59,7 +60,7 @@ PlayerAttack = Player.Attack("Swing sword", "You slash your old, medieval sword 
 Ally = Ally("Chester Bennington", 80, 20, 36, "Alive")
 AllyAttack = Ally.Attack("Shoot rifle", "Chester fires his worn-down M1 garand towards the chest of the", 27)
 
-Enemy = Character("Zombie", 135, 85, 5) ## original parameters: ("Zombie", 135, 85, 5)
+Enemy = Character("Zombie", 135, 85, 5)
 EnemyAttack = Enemy.Attack("Swing hatchet", "The zombie hurls its hatchet down onto the shoulder of", 32)
 
 ### {{{ ROOMS }}}
@@ -184,8 +185,6 @@ def fightMode(ally, enemy, isAllyAlive):
         print("-----")
 
 ### @@@ MAIN @@@ ###
-if False:
-    fightMode(Ally, Enemy, True)
 
 isGameOn = True
 isAllyFound = False
